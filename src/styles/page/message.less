@@ -1,0 +1,155 @@
+.message{
+    height: 100%;
+    width: 100%;
+    .message-title{
+        height: 120px;
+        width: 100%;
+        background: #3bc2a8;
+        position: fixed;
+        box-sizing: border-box;
+        top: 0;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        padding-top: 45px;
+        border-bottom: 1px solid #aaaaaa;
+    }
+    .message-wrap{
+        padding: 0 30px;
+        overflow: hidden;
+        .message-box{
+            margin-top: 30px;
+            background: white;
+            border: 1px solid #e6e6e6;
+            border-radius: 7px;
+            overflow: hidden;
+            .message-box-top{
+                border-top-left-radius: 7px;
+                border-top-right-radius:7px;
+                height: 10px;
+                background: #44cbb7;
+            }
+            .pad30{
+                padding: 30px;
+                .message-box-title{
+                    height: 65px;
+                    line-height: 65px;
+                    font-size: 35px;
+                }
+                .selfDef{
+                    font-size: 25px;
+                    line-height: 35px;
+                    margin-top: 20px;
+                } 
+            }
+            .message-box-foot{
+                border-top: 1px solid #e6e6e6;
+                height: 90px;
+                font-size: 28px;
+                line-height: 28px;
+                box-sizing: border-box;
+                padding: 30px;
+                i{
+                    float: right;
+                    font-size: 30px;
+                    color: #c8c8cc;
+                }
+            }
+        }
+    }
+    .blank120{
+        height: 120px;
+    }
+    .signup-nav{
+        height: 88px;
+        ul{
+            width: 100%;
+            height: 100%;
+            li{
+                width: 25%;
+                float: left;
+                text-align: center;
+                color: #333333;
+                line-height: 88px;
+                border-bottom: 1px solid #e6e6e6;
+                box-sizing: border-box;
+            }
+        }
+    }
+    .nav_active{
+        border-bottom: 2px solid #3bc2a8 !important;
+        color: #4ac6ae!important;
+    }
+    .swiper-container{
+        height: 80%;
+    }
+    .no-message{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-top: 425px;
+    }
+    .all-sign{
+        height: 260px;
+        position: relative;
+        .sign-box{
+            height: 245px;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 20px;
+            .sign-box-left{
+                float: left;
+                width: 140px;
+                box-sizing: border-box;
+                span{
+                    display: block;
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 45px;
+                    background: #13b5b1;
+                    color: white;
+                    line-height: 90px;
+                    text-align: center;
+                }
+            }
+            .sign-box-right{
+                width: 570px;
+                float: left;
+                .jobsname{
+                    font-size: 30px;
+                    font-weight: 800;
+                    line-height: 50px;
+                }
+                .mianshi{
+                    font-size: 25px;
+                    line-height: 40px;
+                    .state{
+                        float: right;
+                        color: #ff3434;
+                    }
+                }
+                .salary{
+                    font-size: 25px;
+                    color: #ff9d4c;
+                }
+                .delete{
+                    span{
+                        float: right;
+                    }
+                    i{
+                        font-size: 30px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        .sign-bottom{
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            height: 20px;
+            background: #f4f4f4;
+        }
+    }
+}
